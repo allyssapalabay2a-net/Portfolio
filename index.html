@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Student portfolio showcasing skills, projects, and achievements.">
+        <title>My Student Portfolio</title>
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <a class="logo" href="#home">My Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">My Student Portfolio</p>
+                <h1>Hello, I'm <span id="studentName">Allyssa P. Palabay</span></h1>
+                <h2 id="tagline">Aspiring Network Developer</h2>
+                <p id="introduction">I believe that every project is a chance to grow and do our best and I enjoy learning more about technology.</p>
+                <div class="hero-actions">
+                    <a class="btn" href="#projects">View My Projects</a>
+                    <a class="btn btn-outline" href="#contact">Contact Me</a>
+                </div>
+            </div>
+            <div>
+                <img id="Profile1.jpg" src="Profile1.jpg" alt="Profile1.jpg">
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p id="biography">Since I'm in High School I want to be an graduated Information Technology Student.</p>
+                <div class="information-card">
+                    <h3>Educational Background</h3>
+                    <p id="school">Nueva Vizcaya State University</p>
+                    <p id="course">Bachelor of Science in Information Technology</p>
+                    <p id="yearLevel">Second Year College</p>
+                    <h3>Interests</h3>
+                    <p id="interests">Doing house chores</p>
+                    <p>Watching random videos</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section alternate">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-description">Learning technologies so I continue to develop.</p>
+            <div id="skillsContainer" class="skills-grid">HTML</div>
+            <span class="skills">JavaScript</span>
+            <span class="skills">CSS</span>
+            <span class="skills">Teamwork</span>
+            <span class="skills">Time Management</span>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-description">Academic and personal projects I have worked on.</p>
+            <div id="projectsMessage" class="status-message" aria-live="polite"></div>
+            <div id="projectsContainer" class="projects-grid"></div>
+            <div class="github-section">
+                <h3>Latest Github Repositories</h3>
+                <p class="section-description">My five most recently updated public repositories.</p>
+                <div id="githubMessage" class="status-message" aria-live="polite"></div>
+                <ul id="githubRepos" class="repository-list"></ul>
+                <a id="githubProfile" class="text-link" href="https://github.com/" target="_blank" rel="noopener norefferer">https://</a>
+            </div>
+        </section>
+
+        <section id="contact" class="section alternate">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-details">
+                <p>Email: <a id="contactEmail" href="mailto: student@example.com">allyssa.palabay.10@gmail.com</a></p>
+                <p>Phone: <a id="contactPhone" href="tel: +1234567890">09652992548</a></p>
+            </div>
+            <form id="contactForm" class="contact-form">
+                <label for="visitorName">Name</label>
+                <input type="text" id="visitorName" name="visitorName" required minlength="2">
+                <label for="visitorEmail">Email</label>
+                <input type="email" id="visitorEmail" name="visitorEmail" required>
+                <label for="visitorMessage">Message</label>
+                <textarea id="visitorMessage" name="visitorMessage" rows="5" required minlength="10"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+                <p id="formFeedback" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main> 
+
+    <footer><p id="footerText">© 2026 My Student Portfolio. All rights reserved.</p></footer>
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">↑ Top</button>
+</body>
+</html>
