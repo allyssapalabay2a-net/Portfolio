@@ -1,0 +1,23 @@
+{
+    "name": "Allyssa P. Palabay",
+    "tagline": "Aspiring Web Developer",
+    "introduction": "I believe that every project is a chance to grow and do our best and I enjoy learning more about technology.",
+    "profileImage": "Profile1.jpg",
+    "about": {
+        "biography": "Since I'm in High School I want to be an graduated Information Technology Student."
+    },
+    "Educational Background": {
+        "school": "Nueva Vizcaya State University",
+        "course": "Bachelor of Science in Information Technology",
+        "yearLevel": "Second Year College"
+    },
+    "skills": [
+        "HTML",
+        "JavaScript",
+        "CSS",
+        "Teamwork",
+        "Time Management"
+    ],
+
+    "Projects"
+}
